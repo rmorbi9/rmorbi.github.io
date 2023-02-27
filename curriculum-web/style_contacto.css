@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;700&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box ;
+}
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+    background-image: linear-gradient(to top, #a3bded 0%, #6991c7 100%);
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.form {
+    background-color: #eeeff6;
+    width: 90%;
+    max-width: 400 px;
+    border-radius: 1em;
+    padding: 1em;
+    margin: auto;
+}
+
+.form_container {
+width: 100%;
+display: grid;
+gap: 1em;
+grid-auto-columns: 100%;
+}
+
+.form_title {
+    text-align: center;
+    color: cadetblue;
+    
+}
+
+.form_input {
+    font-family: inherit;
+    color: rgb(82, 109, 110);
+    border-color: rgb(148, 176, 65);
+    border-style: solid;
+}
+
+.form_input--message {
+resize: none;
+height:6em ;
+margin-bottom: 0.5em;
+color: rgb(82, 109, 110);
+border-color: rgb(148, 176, 65);
+    border-style: solid;
+}
+
+.form_input1 {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    border-radius: 1em;
+    color: rgb(64, 133, 136);
+    border-color: rgb(148, 176, 65);
+    border-style: solid;
+}
+    
+.form_cta {
+    font-family: inherit;
+    background-color: hsl(218, 65%, 60%);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    border-radius: 1em;
+    border-color: rgb(148, 176, 65);
+    border-style: solid;
+}
+
+.pie_de_pagina {
+    font-family: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    text-align: center;
+    padding: 5px;
+    border-radius: 1em;  
+}
+    
+#regreso {
+    color: rgb(64, 133, 136);
+    border-color: rgb(148, 176, 65);
+    border-style: solid;
+    align-items: center;  
+}
